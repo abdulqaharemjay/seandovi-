@@ -1,6 +1,23 @@
+.contact-hero {
+    height: 50vh;
+}
+
 .contact-us {
     padding: 120px 0;
     background: #3E3E3E;
+    position: relative;
+}
+
+.contact-us::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2px;
+    background: #8D8D8D;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .entrance h3 {
