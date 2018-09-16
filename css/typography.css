@@ -1,0 +1,22 @@
+
+/* --  typography  --*/
+
+body { font-family: 'Lato', sans-serif}
+
+h1 {font-size: 38px; color: #3e3e3e;}
+h2 {font-size: 28px;font-weight: 700; color: #3e3e3e;}
+h3 {font-size: 22px; font-weight: 600; color: #3e3e3e; line-height: 1em;}
+h4 {font-size: 20px; color: #3e3e3e; font-weight: 600;}
+p {
+    font-size: 14px;  
+    font-family: 'Lato', sans-serif; 
+    line-height: 2rem;
+    color: #8d8d8d;
+}
+label {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}

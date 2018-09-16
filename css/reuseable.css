@@ -1,0 +1,48 @@
+/* --  link buttons  --*/
+
+.btn {
+    display:inline-block;
+    text-decoration: none;
+}
+
+/* font classes */
+.h1 {font-size: 48px; font-weight: 500;}
+.h2 {font-size: 20px;}
+.h3 {font-size: 15px;}
+.helper-font {font-size: 13px;}
+
+.dn {
+    display: none;
+}
+
+input {
+       border: 1px solid rgb(218, 218, 218);
+    padding: 10px 0;
+    font-size: 14px;
+    width: 100%;
+    background: transparent;
+}
+
+/* input:focus ~ label {
+    color: #C2CED5;
+} */
+input::placeholder {
+    color: rgb(65, 106, 114);
+    font-size: 14px;
+}
+button {
+    border: transparent;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+button:hover {
+    background: rgb(1, 172, 89);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    color: #fefefe;
+}
+.relative {position: relative;}
+
+.fracture {
+    border: #000 solid 1px;
+}
